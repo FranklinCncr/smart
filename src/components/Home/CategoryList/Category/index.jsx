@@ -1,4 +1,14 @@
-function Category() {
-  return <div>Category</div>;
+import './styleCategory.css'
+function Category(props) {
+  return(
+    <div className='cardCategory'>
+      <div className='containerImage'>
+        <img className='imgCategory' src={props.image} />
+      </div>
+      <div className='containerName'>
+        <h2 className='category'>{props.category}</h2>
+      </div>
+    </div>
+  );
 }
 export default Category

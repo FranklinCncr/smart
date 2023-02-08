@@ -1,0 +1,28 @@
+.cardCategory{
+    width: 200px;
+    height: 240px;
+}
+.containerImage{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 50%;
+    position: relative;
+}
+.imgCategory{
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    object-fit:cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.containerName{
+    display: flex;
+}
+.category{
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}

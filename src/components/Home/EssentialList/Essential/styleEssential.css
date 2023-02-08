@@ -1,0 +1,15 @@
+.cardEssential{
+    width: 200px;
+    height: 280px;
+}
+.containerImgEssential{
+    width: 100%;
+    height: 200px;
+    border-radius: 10%;
+    background-color: rgb(220, 220, 220);
+}
+.imgEssential{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+} 
