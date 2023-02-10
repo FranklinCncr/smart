@@ -1,0 +1,10 @@
+.fullTextCategory{
+    color: rgb(80, 80, 80);
+}
+.textCategory{
+    color: rgb(41, 148, 197);
+}
+.gridlLayoutCategory{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+}

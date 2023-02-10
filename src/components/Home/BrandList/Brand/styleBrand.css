@@ -4,7 +4,11 @@
     height: 220px;
     border-radius: 10px;
     background-color: rgb(60, 60, 60);
-    color: white;   
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .yellow{
     display: flex;
@@ -12,7 +16,11 @@
     height: 220px;
     border-radius: 10px;
     background-color: rgb(209, 171, 2);
-    color: black;   
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; 
 }
 .red{
     display: flex;
@@ -20,7 +28,11 @@
     height: 220px;
     border-radius: 10px;
     background-color: rgb(196, 73, 73);
-    color: black;   
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;  
 }
 .detailsBrand{
     width: 50%;

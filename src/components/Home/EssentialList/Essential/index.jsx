@@ -5,8 +5,8 @@ function Essential(props) {
       <div className="containerImgEssential">
         <img className='imgEssential' src={props.imgEssential}/>
       </div>
-      <p className="nameEssential">{props.nameEssential}</p>
-      <p className="upToOff">{props.upToOff}</p>
+      <h3 className="nameEssential">{props.nameEssential}</h3>
+      <h3 className="upToOffEssential">UP to {props.upToOff}% OFF</h3>
     </div>
   ); 
 }

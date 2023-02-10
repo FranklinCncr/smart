@@ -1,15 +1,31 @@
-.cardEssential{
-    width: 200px;
-    height: 280px;
+.cardEssential {
+  width: 200px;
+  height: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.containerImgEssential{
-    width: 100%;
-    height: 200px;
-    border-radius: 10%;
-    background-color: rgb(220, 220, 220);
+.containerImgEssential {
+  width: 100%;
+  height: 200px;
+  border-radius: 10%;
+  background-color: rgb(220, 220, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.imgEssential{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-} 
+.imgEssential {
+  object-fit: cover;
+  width: 80%;
+  height: 80%;
+}
+.nameEssential {
+  color: rgb(100, 100, 100);
+  text-align: center;
+  font-size: 14px;
+}
+.upToOffEssential {
+  text-align: center;
+  margin-top: 0%;
+}

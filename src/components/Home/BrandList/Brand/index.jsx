@@ -1,6 +1,4 @@
 import './styleBrand.css'
-
-
 function Brand(props) {
   return(
     <div className={props.color}>

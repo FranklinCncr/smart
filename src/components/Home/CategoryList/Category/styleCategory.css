@@ -1,6 +1,10 @@
 .cardCategory{
     width: 200px;
     height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .containerImage{
     width: 100%;
