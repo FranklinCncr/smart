@@ -1,0 +1,63 @@
+.navbar {  
+  font: 1em sans-serif;
+  color: rgb(55, 55, 55);
+}
+.navbarHead {
+  background-color: rgb(173, 173, 173);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+}
+.navbarOfferts{
+  display: flex;
+}
+.itemOffer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.searchBar{
+  border-bottom:  solid rgb(245, 245, 245);
+  display: flex;
+  padding: 0px 20px 0px 20px;
+  justify-content: space-between;
+}
+.contentMarkLogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(9, 105, 161);
+}
+.contentItemsSearchBar{
+  display: flex;  
+}
+.itemSearchBar{
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linkNavbar{
+  color: rgb(9, 131, 161);
+  text-decoration: none;
+}
+.iconCian{
+  color: rgb(9, 131, 161);
+}
+.inputSearch{
+  margin-left: 5px;
+  padding: 10px;
+  width: 240px;
+  background-color: rgb(9, 131, 161,0.1);
+  border:0;
+  border-radius: 5px;
+}
+@media(max-width:50rem){
+  .navbarOfferts{
+    display: none;
+  }
+  .contentItemsSearchBar{
+    display: none;
+  }
+}

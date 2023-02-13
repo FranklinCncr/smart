@@ -1,0 +1,18 @@
+.container {
+  font: 1em sans-serif;
+}
+@media (min-width: 75rem) {
+  .container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media (min-width: 50rem) and (max-width: 75rem) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+body{
+  margin: 0;
+}

@@ -2,8 +2,12 @@
     color: rgb(80, 80, 80);
 }
 .textSmartphone{
-    color: rgb(41, 148, 197);
+    color: rgb(9, 131, 161);
 }.gridLayoutSmartphone{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+.link{
+    text-decoration: none;
+    color: rgb(50, 50, 50);
 }

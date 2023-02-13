@@ -9,7 +9,7 @@ function SlideCarousel(props) {
         </div>
         <div className='containerImgSlide'>
           <div className="circleSlide"></div>
-          <img className='imgSlide' src={props.imgSlide}/>        
+          <img className='imgSlide' src={props.imgSlide} alt="alt"/>        
         </div>
       </div>
     ); 

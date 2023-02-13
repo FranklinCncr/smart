@@ -1,0 +1,8 @@
+.styleButton{
+    border-radius: 20px;
+    width: 100%;
+    font-size: 18px;
+    border:0;
+    color: white;
+    background-color: rgb(9, 131, 161)
+}

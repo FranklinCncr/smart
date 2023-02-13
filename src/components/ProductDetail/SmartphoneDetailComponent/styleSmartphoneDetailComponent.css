@@ -1,0 +1,71 @@
+.smartphoneDetail {  
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  .containerImgSmartphoneDetail {
+    width: 100%;
+    position: relative;
+    height: auto;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(9, 131, 161);
+  }
+  .imgSmartphoneDetail {
+    width: 100%;
+    height: auto;
+  }
+  .offSmartphoneDetail {
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    right: 0;
+    border-radius: 0px 10px 0px 10px;
+    background-color: rgb(9, 131, 161);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .containerSmarphoneDetails {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    color: rgb(50, 50, 50);
+  }
+  
+  .nameSmartphoneDetail {
+    font-size: 40px;
+  }
+  
+  .pricesSmartphoneDetail {
+    font-size: 24px;
+  }
+  
+  .saveSmartphoneDetail {
+    font-size: 20px;
+    color: rgb(9, 138, 31);
+  }
+  
+  @media (min-width: 50rem) {
+    .smartphoneDetail{
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .containerSmarphoneDetails {
+      width: auto;
+      padding: 10px 50px 10px 50px;
+    }
+    .containerImgSmartphoneDetail {
+      width: 50%;
+    }
+  }
+  

@@ -1,0 +1,5 @@
+export { default as SmartphoneDetail } from './SmartphoneDetail/SmartphoneDetail'
+export { default as CategoryDetail } from './CategoryDetail/CategoryDetail'
+export { default as BrandDetail } from './BrandDetail/BrandDetail'
+export { default as EssentialDetail } from './EssentialDetail/EssentialDetail'
+export { default as Home } from './Home/Home'

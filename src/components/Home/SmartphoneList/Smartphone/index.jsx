@@ -3,7 +3,7 @@ function Smartphone(props) {
     return (
       <div className='cardSmartphone'>
         <div className='cardImage'>
-          <img className='imgStyle' src={props.image}/>
+          <img className='imgStyle' src={props.image} alt={props.id}/>
           <div className='off'>{props.off}% OFF</div>
         </div>   
         <div className='cardDetails'>

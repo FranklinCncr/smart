@@ -1,0 +1,94 @@
+.greyDetail{
+    display: flex;
+    width: 50vw;
+    height: 30vw;
+    border-radius: 10px;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.yellowDetail{
+    display: flex;
+    width: 50vw;
+    height: 30vw;
+    border-radius: 10px;
+    background-color: rgb(209, 171, 2);
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.redDetail{
+    display: flex;
+    width: 50vw;
+    height: 30vw;
+    border-radius: 10px;
+    background-color: rgb(196, 73, 73);
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+.detailsBrandDetail{
+    width: 50%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+.containerNameBrandDetail{
+    display: flex;
+    background-color: rgb(255, 255, 255, 0.3);
+    width: 70%;
+    height: 15%;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;    
+}
+.containerLogoDetail{
+    width: 50%;
+    height: auto;
+    margin-top: 10%;
+}
+.imgLogoDetail{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.upToOffDetail{
+    margin-left: 30px;
+    margin-top: 15%;
+}
+.containerImgBrandDetail{
+    position: relative;
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+    overflow: hidden;
+}
+.imgBrandDetail{
+    position: absolute;
+    object-fit: cover;
+    width: 80%;
+    height: 80%;
+}
+.circleDetail{
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    margin-top: -40%;
+    margin-right: -30%;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255, 0.3);
+}
